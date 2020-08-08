@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         salida=(TextView)findViewById(R.id.Tv1);
-        CADENA=separaCaracteres("hola juan$ pablo, ¿como estas?.","[,. ]");
+        CADENA=separaCaracteres("hola juan$ pablo, ¿como estas?.","[,. ¿?]+");
         //salida.setText(""+CADENA);
         salida.setText(mostrar(CADENA));
 
