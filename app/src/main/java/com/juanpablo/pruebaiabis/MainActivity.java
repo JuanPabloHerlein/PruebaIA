@@ -18,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
         CADENA=separaCaracteres("hola juan$ pablo, ¿como estas?.","[,. ¿?]+");
         //salida.setText(""+CADENA);
         salida.setText(mostrar(CADENA));
-
     }
 
 
@@ -26,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
         String r="";
         for(int i=0;i<cadena.length;i++){
             r += ("\n---\npalabra: " + i +">>>"+ cadena[i]);
-
         }
         return r;
     }
